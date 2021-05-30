@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+    background-color: blueviolet;
+    margin: 3px;
+    margin-bottom: 40px;
+    padding: 3px;
+}
+
+.flex > div{
+    width: 150px;
+    margin: 10px;
+    font-size: 23px;
+    line-height: 30px;
+    background-color: crimson;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 30%;
+    border:3px solid rgb(0, 0, 0);
+    display: inline-table;
+    margin: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
